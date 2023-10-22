@@ -1,0 +1,46 @@
+.pixel-canvas {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    border: 1px solid rgb(212, 212, 212);
+    overflow: hidden;
+    position: relative;
+}
+
+.pixel {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgb(247, 247, 247);
+    box-sizing: border-box;
+}
+
+.on {
+    background-color: #ff8400;
+}
+
+.off{
+    background-color: white;
+}
+
+.plate {
+    background-color: rgb(120, 120, 120);
+}
+
+.plate-top {
+    background-color: rgb(190, 190, 190);
+}
+
+.dog{
+    width: 118px;
+    height: 90px;
+    position: absolute;
+    background-image: url(../images/dog_sprite.png);
+    background-position: left;
+    background-size: cover;
+    top: 210px;
+    right: 95px;
+}
+
+.move{
+    background-position: right;
+}
